@@ -1,0 +1,110 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #2c4c6b;
+}
+p,
+h5 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+h5 {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+hr {
+  border-top: 1px dashed #eee;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+.container {
+  /* display: flex;
+  justify-content: space-evenly; */
+  padding: 10px;
+  width: 330px;
+  margin: 0 auto;
+}
+.income_expense {
+  display: flex;
+  justify-content: center;
+}
+.income,
+.expense {
+  font-size: 20px;
+  padding: 10px 25px;
+  background: #fff;
+}
+.income {
+  border-right: 1px solid #f1f1f1;
+}
+.income p {
+  color: green;
+}
+.expense p {
+  color: red;
+}
+.transaction {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.transaction .amount {
+  font-size: 10px;
+}
+.transaction.income {
+  border-right: 3px solid green;
+}
+.transaction.expense {
+  border-right: 3px solid red;
+}
+label {
+  font-size: 12px;
+  font-weight: bold;
+}
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+input:focus {
+  outline: 0;
+}
+button {
+  background: #202944;
+  color: #fff;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+}
+button:hover {
+  background: #31384c;
+}
+.balance {
+  text-align: center;
+  background: #fbfcfd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.balance h4 {
+  color: #9eadbb;
+}
+span.delete {
+  margin-left: 10px;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+}
+span.delete:hover {
+  color: red;
+}
